@@ -21,12 +21,6 @@
 #include <stdio.h>
 
 typedef struct {
-  int s;
-  int t;
-  int p;
-} block_t;
-
-typedef struct {
   int n_stacks;
   int n_tiers;
   int n_blocks;

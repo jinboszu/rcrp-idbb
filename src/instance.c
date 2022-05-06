@@ -39,6 +39,12 @@ void free_instance(instance_t *inst) {
   free(inst);
 }
 
+typedef struct {
+  int s;
+  int t;
+  int p;
+} block_t;
+
 instance_t *read_cvs_instance(FILE *fp, int n_tiers) {
   instance_t *inst = NULL;
 
